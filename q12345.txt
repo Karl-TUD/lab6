@@ -3,3 +3,5 @@ gh api --method=PUT "repos/Karl-TUD/lab6/collaborators/Lrak1"
 gh api --method=GET "repos/Karl-TUD/lab6/collaborators"
 gh api --method=DELETE "repos/Karl-TUD/lab6/collaborators/Lrak1"
 gh issue create --title "Create helloworld python file" --body "print hello Pearse from lab6" --assignee "@me" --label enhancement
+gh pr create -B main -H Q12345 --title "Merge Solutions into Main"
+gh pr merge 2 
